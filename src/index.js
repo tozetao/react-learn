@@ -10,9 +10,8 @@ import ReactDOM from 'react-dom';
 // import App from './my-redux-saga/demo';
 // ReactDOM.render(<App />, document.getElementById('root'));
 
-
-import App from './my-react-redux/demo';
-ReactDOM.render(<App />, document.getElementById('root'));
+// import App from './my-react-redux/demo';
+// ReactDOM.render(<App />, document.getElementById('root'));
 
 // import App from './redux-actions/demo';
 // ReactDOM.render(<App />, document.getElementById('root'));
@@ -20,8 +19,8 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // import App from './my-router-dom/test';
 // ReactDOM.render(<App />, document.getElementById('root'));
 
-// import App from './admin/app';
-// ReactDOM.render(<App />, document.getElementById('root'));
+import App from './admin/app';
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // import App from './router/guard/Guard';
 // ReactDOM.render(<App />, document.getElementById('root'));

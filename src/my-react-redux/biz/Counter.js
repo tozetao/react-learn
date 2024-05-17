@@ -19,8 +19,7 @@ function Counter(props) {
   )
 }
 
-function mapStateToProps(state, props) {
-  console.log('props: %o', props.user)
+function mapStateToProps(state) {
   return {
     count: state.countState
   }

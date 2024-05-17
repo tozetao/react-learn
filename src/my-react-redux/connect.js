@@ -33,6 +33,7 @@ export default function connect(mapStateToProps, mapDispatchToProps) {
 
       const [state, setState] = useState(mapStateToProps && mapStateToProps(store.getState(), props))
 
+      /* eslint-disable */
       useEffect(() => {
         // props是一个对象，因此可以获取最新的值。
         return store.subscribe(() => {

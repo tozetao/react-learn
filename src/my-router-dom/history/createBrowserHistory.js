@@ -26,9 +26,9 @@ const globalLcation = window.location
 const globalHistory = window.history  
 
 /**
- * 
- * @param {string|object} url 当是string时，是类似/users,/news的pathname；如果是object，则有pathname、search、hash属性组成。
- * @param {*} basename 
+ * 该函数会返回一个 pathname?search#hash 的路径。
+ * @param {string|object} url 当url是string时，是/users、/news这样的路径；如果是object，只处理pathname、search、hash3个属性。
+ * @param {*} basename 根路径
  * @returns 
  */
 function getPath(url, basename) {
@@ -76,7 +76,7 @@ function getState() {
   return state
 }
 
-// pathname, search, hash
+// 将一个URL地址解析成由pathname, search, hash属性组成的对象。
 export function parsePath(path) {
   const pathname = path.replace(/[?|#].*/, '')
 
