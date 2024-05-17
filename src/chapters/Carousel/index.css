@@ -1,0 +1,25 @@
+.carousel {
+  position: relative;
+  margin: 100px auto;
+  
+  border: 1px solid #cdc;
+  overflow: hidden;
+}
+
+/* 宽度由子元素数量决定 */
+.image-container {
+  list-style: none;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.image-container li {
+  float: left;
+  height: 100%;
+}
+.image-container li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.image-container li:nth-child(even) {
+  background-color: bisque;
+}

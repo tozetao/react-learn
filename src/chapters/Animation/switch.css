@@ -1,0 +1,14 @@
+/* 被移除的子组件的样式 */
+.exit-active {
+  transition: 500ms;
+  opacity: 0;
+}
+
+/* 被渲染的新子组件的样式 */
+.enter {
+  opacity: 0;
+}
+.enter-active {
+  opacity: 1;
+  transition: 500ms;
+}

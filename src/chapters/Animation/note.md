@@ -1,0 +1,2 @@
+Transition组件本身不负责实现动画。
+它是维护了一个state，通过state状态的变化并搭配css的transition属性，我们可以用于实现动画效果。

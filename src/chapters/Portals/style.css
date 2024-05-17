@@ -1,0 +1,10 @@
+.app {
+  height: 20%;
+}
+.modal {
+  position: absolute;
+  top: 20%;
+  height: 80%;
+  width: 100%;
+  background-color: aliceblue;
+}

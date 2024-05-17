@@ -1,0 +1,32 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  height: 50px;
+  line-height: 50px;
+  
+  padding: 0 10px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-menus {
+  list-style: none;
+  display: flex;
+
+  color: #909399;
+  font-size: 14px;;
+}
+.header-menus li {
+  margin-right: 10px;
+}
+.header-menus link {
+  cursor: pointer;
+  color: brown;
+}

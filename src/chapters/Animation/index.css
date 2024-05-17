@@ -1,0 +1,40 @@
+.container {
+  background-color: aquamarine;
+  width: 100px;
+  height: 54px;
+
+  position: relative;
+
+}
+
+.title {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+.exit-active {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: 1000ms;
+}
+.exit-done {
+  display: none;
+}
+
+.enter, .appear {
+  opacity: 0;
+  transform: translateX(100px);
+  display: block;
+}
+.enter-active, .appear-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: 1000ms;
+}
