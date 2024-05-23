@@ -22,7 +22,10 @@ import ReactDOM from 'react-dom';
 // import App from './admin/app';
 // ReactDOM.render(<App />, document.getElementById('root'));
 
-import App from './connected-router-redux/demo';
+// import App from './connected-router-redux/demo';
+// ReactDOM.render(<App />, document.getElementById('root'));
+
+import App from './my-connected-router-redux/demo';
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // import App from './router/guard/Guard';
